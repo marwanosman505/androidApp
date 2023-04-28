@@ -6,6 +6,9 @@ import java.util.List;
 
 import androidx.lifecycle.LiveData;
 
+import uk.ac.le.co2103.part2.dao.ShoppingListDao;
+import uk.ac.le.co2103.part2.domain.ShoppingList;
+
 
 public class ShoppingListRepository {
     private ShoppingListDao shoppingListDao;

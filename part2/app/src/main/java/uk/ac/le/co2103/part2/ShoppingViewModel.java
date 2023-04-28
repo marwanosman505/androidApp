@@ -7,6 +7,8 @@ import androidx.lifecycle.LiveData;
 
 import java.util.List;
 
+import uk.ac.le.co2103.part2.domain.ShoppingList;
+
 public class ShoppingViewModel extends AndroidViewModel {
     private ShoppingListRepository repo;
 
@@ -18,7 +20,9 @@ public class ShoppingViewModel extends AndroidViewModel {
         allItems = repo.getAllItems();
     }
 
-    LiveData<List<ShoppingList>> getAllItems() { return allItems; }
+    LiveData<List<ShoppingList>> getAllItems() {
+        return allItems;
+    }
 
     public void insert(ShoppingList list) { repo.insert(list); }
 }

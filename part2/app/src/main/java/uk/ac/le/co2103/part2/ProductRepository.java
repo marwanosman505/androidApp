@@ -6,6 +6,9 @@ import java.util.List;
 
 import androidx.lifecycle.LiveData;
 
+import uk.ac.le.co2103.part2.dao.ProductDao;
+import uk.ac.le.co2103.part2.domain.Product;
+
 
 public class ProductRepository {
     private ProductDao productDao;

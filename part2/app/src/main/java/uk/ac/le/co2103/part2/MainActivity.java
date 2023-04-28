@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
         Log.d(TAG, "Creating recyclerView");
         RecyclerView recyclerView = findViewById(R.id.recyclerview);
-        final ShoppingListAdapter adapter = new ShoppingListAdapter(new ShoppingListAdapter.ShoppingDiff());
+        final ShoppingListAdapter adapter = new ShoppingListAdapter(new ShoppingListAdapter.ShoppingDiff(), MainActivity.this);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
             Log.d(TAG, "Floating action button clicked.");
             Toast.makeText(getApplicationContext(), "Not implemented yet.", Toast.LENGTH_LONG).show();
         });
+
     }
 
 }

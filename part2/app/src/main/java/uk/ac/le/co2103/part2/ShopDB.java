@@ -1,7 +1,6 @@
 package uk.ac.le.co2103.part2;
 
 
-import android.content.ClipData;
 import android.content.Context;
 
 import java.util.concurrent.ExecutorService;
@@ -13,8 +12,10 @@ import androidx.room.Room;
 import androidx.room.RoomDatabase;
 import androidx.sqlite.db.SupportSQLiteDatabase;
 
-import uk.ac.le.co2103.part2.Product;
-import uk.ac.le.co2103.part2.ProductDao;
+import uk.ac.le.co2103.part2.dao.ProductDao;
+import uk.ac.le.co2103.part2.dao.ShoppingListDao;
+import uk.ac.le.co2103.part2.domain.Product;
+import uk.ac.le.co2103.part2.domain.ShoppingList;
 
 //@Database(entities = {ClipData.Item.class}, version = 1, exportSchema = false)
 @Database(entities = {ShoppingList.class, Product.class}, version = 1, exportSchema = false)

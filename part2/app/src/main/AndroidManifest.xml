@@ -16,6 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="uk.ac.le.co2103.part2.ShoppingListActivity"/>
+
     </application>
 
 </manifest>
