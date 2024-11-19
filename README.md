@@ -86,7 +86,7 @@ The Shopping List App is designed to simplify the process of shopping by allowin
 - **Developer**: Marwan Osman
 - **Email**: [marwanosman505@gmail.com](mailto:marwanosman505@gmail.com)
 - **GitHub**: [marwanosman505](https://github.com/marwanosman505)
-- **LinkedIn**: [Marwan Osman]([https://www.linkedin.com/in/marwan-osman/](https://www.linkedin.com/in/marwan-osman-5b9b88209/))
+- **LinkedIn**: [Marwan Osman]([https://www.linkedin.com/in/marwan-osman-5b9b88209/])
 
 ---
 
